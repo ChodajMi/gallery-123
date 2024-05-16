@@ -1,0 +1,51 @@
+header{
+    padding:10px;
+    display: block;
+    background-color: #5151e5a9;
+    color: white;
+    
+}
+.logo{
+    max-width: 100px;
+}
+h1{
+    text-align: center;
+}
+.close-btn{
+    display: inline-block;
+    color: white;
+    background-color: #5151e5a9;
+    border-color: #5151e5a9;
+    border-radius: 12%;
+    width: 90px;
+}
+.prev-btn{
+    display: inline-block;
+    color: white;
+    background-color: #5151e5a9;
+    border-color: #5151e5a9;
+    border-radius: 12%;
+}
+.next-btn{
+    display: inline-block;
+    color: white;
+    background-color: #5151e5a9;
+    border-color: #5151e5a9;
+    border-radius: 12%;
+    width: 90px;
+}
+.container {
+    text-align: center; 
+    margin: 50px;  
+}
+  
+.lightbox-modal { 
+    display: inline-block; 
+} 
+footer{
+    padding-bottom: 10px;
+    display: block;
+    color: white;
+    background-color: #5151e5a0;
+    text-align: center;
+}

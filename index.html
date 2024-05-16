@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="Style.css">
+        <link rel="icon" href="icon.webp" type="image/x-icon">
+        <title>Gallery</title>
+    </head>
+</html>
+<header>
+    <table>
+        <tr>
+            <td><img src="icon.webp" alt="icon" height="60px" widith="60px"></td>
+            <td><h1><b>Photo Gallery</b></h1></td>
+        </tr>
+    </table>   
+</header>
+<body>
+    <div class="container">
+        <div class="gallery-grid">
+          </div>
+        <div class="lightbox-modal">
+            <table>
+                <tr>
+                    <td><img src="images/cat.jpeg" alt="images" class="lightbox-image"></td>   
+                </tr>
+                <tr>
+                    <td>
+                        <button class="close-btn">Close</button>
+                        <button class="prev-btn">Previous</button>
+                        <button class="next-btn">Next</button>
+                    </td> 
+                </tr>
+            </table> 
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+<footer>
+    <address>
+        <p>Developer : 02210199</p>
+        <p>Email : <a href="mailto:02210199.cst@rub.edu.bt">02210199.cst@rub.edu.bt</a></p>
+        <p>Location : Rinchending,Phuntsholing,Chukha</p>
+        <img src="map.png" alt="map" height="60px" weigth="60px">
+    </address>
+    <p>&copy; <?php echo date("Y"); ?>Jigme Choda</p>
+</footer>
